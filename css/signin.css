@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  display: block;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: linear-gradient(to bottom,rgba(104, 234, 204),rgba(73, 123, 232) 100%);
+}
+
+#particles-js{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+#container{
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+  width: 30%;
+  margin: 10px auto;
+  background-color: transparent;
+  top: 20%;
+  left: 35%;
+
+}
+#containerInner{
+  margin: 10px auto;
+  background-color:transparent;
+}
+.title-main{
+  
+  margin: 10px;
+  color:rgb(179, 240, 237);
+  font-weight: 600;
+  margin-top: 0px;
+  padding: 30px;
+  font-size: 5em;
+  letter-spacing: 15px;
+  text-shadow:5px 5px 5px rgb(18, 152, 189) ;
+  
+
+  
+}
+#registroTitle{
+  color: #8E49E8;
+  letter-spacing: 12px;
+  font-weight: 900;
+
+
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  height: 360px;
+  margin: 10px auto;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+#imagenLogo{
+  text-align: center;
+  margin: 10px auto;
+  background: linear-gradient(rgb(195, 230, 235),rgb(12, 190, 190));
+  width: 84px;
+  border-radius: 50px;
+  border-top: 1px rgb(255, 255, 255) solid;
+  box-shadow: 2px 2px 5px black;
+  border-bottom: 1px black solid;
+}
+
+.form-signin input[type="email"],
+.form-signin input[type="password"],
+.form-signin input[type="text"]{
+  border: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+button{
+  border-radius: 0;
+}
+
+.form-signin .signin{
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.form-signin button{
+  border: none;
+  background: #8E49E8;
+}
+.form-signin a{
+  color: #8E49E8;
+}
+
+.form-signin a:hover{
+  color: blue;
+}
+#button-registro{
+  border-radius: 10px;
+  letter-spacing: 5px;
+  color: white;
+  border-top: 1px rgb(227, 200, 233) solid;
+  border-bottom: 1px rgb(49, 5, 49) solid;
+  padding: 10px;
+  background:linear-gradient(rgb(185, 13, 228),rgb(141, 2, 168));
+  box-shadow: rgb(149, 199, 194) 2px 2px 2px;
+}
+
+
+/*.alert{
+  align-items: center;
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+}*/
